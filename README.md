@@ -30,3 +30,22 @@ var numbers = [1, 3, 5, 9];
 
 myFunction(numbers) = [15,27,45,135];
 ```
+
+#### Rectangle intersection
+Given two rectangles on a grid, return the area of overlap (or 0 if there is no overlap).
+```javascript
+var Rectangle = function(x, y, width, height) {
+  // (x,y) represents the lower left corner
+
+  // coordinates formatted tuples
+  this.LL = [x, y];
+  this.LR = [x + width, y];
+  this.UL = [x, y + height];
+  this.UR = [x + width, y + width];
+}
+
+var rect1 = new Rectangle(0, 0, 3, 3);
+var rect2 = new Rectangle(1, 1, 4, 1);
+
+myFunction(rect1, rect2) = 2;
+```
