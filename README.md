@@ -13,3 +13,6 @@ You have a 13 gallon bucket, an 18 gallon bucket, and an endless supply of water
 
 #### The locker problem
 There are 100 lockers and 100 students. When a student visits a locker he will open it if it's closed, or he will close it if it's open. All lockers are initially closed. Student 1 visits every locker (so he will open them all). Student 2 visits every other locker (so he will close the 2nd, 4th, 6th...). Student 3 visits every third locker (so he will change the state of the 3rd, 6th, 9th...). This continues until all 100 students have had a turn with the lockers. Which lockers are still open? Can you write an algorithm to figure it out? In constant space?
+
+#### The hat problem
+100 prisoners stand in a line. A black or white hat is placed on each person. They don't know the color of their own hat or anybody's behind them, but they can see the hats of everyone standing in front of them. Starting from the back, a guard asks them for the color of their hat one by one. If they get it right they're free to go, otherwise they go to jail. What's a plan the prisoners can come up with (before they line up) to maximize their chances of guessing their hat color correctly?
