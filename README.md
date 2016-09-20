@@ -48,3 +48,6 @@ var rect2 = new Rectangle(1, 1, 4, 1);
 
 myFunction(rect1, rect2) = 2;
 ```
+
+#### Pascal's triangle
+Write a function that returns n lines of Pascal's triangle
