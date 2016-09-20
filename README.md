@@ -16,3 +16,17 @@ There are 100 lockers and 100 students. When a student visits a locker he will o
 
 #### The hat problem
 100 prisoners stand in a line. A black or white hat is placed on each person. They don't know the color of their own hat or anybody's behind them, but they can see the hats of everyone standing in front of them. Starting from the back, a guard asks them for the color of their hat one by one. If they get it right they're free to go, otherwise they go to jail. What's a plan the prisoners can come up with (before they line up) to maximize their chances of guessing their hat color correctly?
+
+## Algorithms
+#### Product Combination
+Given an array of unique numbers, return an array of products from all possible combinations of three numbers.
+```javascript
+var numbers = [1, 3, 5, 9];
+
+// 1 * 3 * 5 = 15
+// 1 * 3 * 9 = 27
+// 1 * 5 * 9 = 45
+// 3 * 5 * 9 = 135
+
+myFunction(numbers) = [15,27,45,135];
+```
