@@ -36,8 +36,7 @@ Given two rectangles on a grid, return the area of overlap (or 0 if there is no 
 ```javascript
 var Rectangle = function(x, y, width, height) {
   // (x,y) represents the lower left corner
-
-  // coordinates formatted tuples
+  // format coordinates as tuples
   this.LL = [x, y];
   this.LR = [x + width, y];
   this.UL = [x, y + height];
