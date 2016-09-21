@@ -52,7 +52,7 @@ myFunction(rect1, rect2) = 2;
 #### Pascal's triangle
 Write a function that returns n lines of Pascal's triangle
 ```javascript
-Pascal's triangle:
+Pascal/'s triangle:
         1
       1   1
     1   2   1
