@@ -68,3 +68,6 @@ Given a sorted array of integers and a sum value, write a function that finds th
 ```javascript
 myFunction([1, 3, 4, 5, 8, 9, 9, 10, 13], 14) = [[1, 13], [4, 10], [5, 9]];
 ```
+
+#### Distance between tree nodes
+Find the distance between two nodes on a binary search tree (sorted) and on a binary tree.
