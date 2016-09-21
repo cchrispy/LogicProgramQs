@@ -64,7 +64,7 @@ Write a function that returns n lines of Pascal's triangle
 Write a function that finds the second largest value in a binary tree
 
 #### Sum pair
-Given a sorted array of integers as the first argument and a sum, write a function that finds the pairs of integers whose sum equals the sum. There may be duplicate integers in the array, but each number can only be used once.
+Given a sorted array of integers and a sum value, write a function that finds the pairs of integers whose sum equals the sum. There may be duplicate integers in the array, but each number can only be used once.
 ```javascript
 myFunction([1, 3, 4, 5, 8, 9, 9, 10, 13], 14) = [[1, 13], [3, 10], [4, 10]];
 ```
