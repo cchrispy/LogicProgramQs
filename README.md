@@ -17,6 +17,23 @@ There are 100 lockers and 100 students. When a student visits a locker he will o
 #### The hat problem
 100 prisoners stand in a line. A black or white hat is placed on each person. They don't know the color of their own hat or anybody's behind them, but they can see the hats of everyone standing in front of them. Starting from the back, a guard asks them for the color of their hat one by one. If they get it right they're free to go, otherwise they go to jail. What's a plan the prisoners can come up with (before they line up) to maximize their chances of guessing their hat color correctly?
 
+#### 2 Player and N Coin Puzzle
+There are n coins in a line. (Assume n is even). Two players take turns to take a coin from one of the ends of the line until there are no more coins left. The player with the larger amount of money wins. Would you rather go first or second? Assume that you go first, describe an algorithm to compute the maximum amount of money you can win.
+```javascript
+/*
+(Example) Coins: [18, 20, 15, 30, 10, 14]
+First Player picks 18, now row of coins is: [20, 15, 30, 10, 14]
+Second player picks 20, now row of coins is: [15, 30, 10, 14]
+First Player picks 15, now row of coins is: [30, 10, 14]
+Second player picks 30, now row of coins is: [10, 14]
+First Player picks 14, now row of coins is: [10]
+Second player picks 10, game over.
+The total value collected by second player is more (20 + 30 + 10) compared to first player (18 + 15 + 14). So the second player wins.
+Note that the strategy to pick maximum of two corners may not work.
+*/
+```
+
+
 ## Algorithms
 #### Product Combination
 Given an array of unique numbers, return an array of products from all possible combinations of three numbers.
@@ -72,3 +89,6 @@ myFunction([13, 13, 1, 1, 3, 4, 5, 8, 9, 10], 14) = [[1, 13], [1, 13], [4, 10], 
 
 #### Distance between tree nodes
 Find the distance between two nodes on a binary search tree (sorted) and on a binary tree.
+
+#### Rectangle combinatinos
+Given a N*M matrix, print all squares/rectangles of all possible sizes(all 1*1, then all 1*2…. 2*1… )
