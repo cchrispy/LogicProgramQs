@@ -34,6 +34,11 @@ Note that the strategy to pick maximum of two corners may not work.
 */
 ```
 
+#### The lying neighbor
+My next door neighbor lies a lot. In fact, he only tells the truth on one day of the week. One day he told me, "I lie on Mondays and on Tuesdays."
+The next day he said, "Today is either Thursday, Saturday or Sunday."
+The next day he said, "I lie on Wednesdays and Fridays."
+On which day of the week does my neighbour tell the truth?
 
 ## Algorithms
 #### Product Combination
