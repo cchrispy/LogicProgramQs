@@ -72,6 +72,14 @@ var rect2 = new Rectangle(1, 1, 4, 1);
 myFunction(rect1, rect2) = 2;
 ```
 
+#### Find a dupe
+You are given an array of length N that contain random integers from 1 to N-1 (inclusive). Write a function that will return a number that appears more than once in the array. There will always be at least one duplicate number in the array. Constraints: O(log n) time complexity and O(1) space complexity.
+```javascript
+var list = [4, 1, 5, 2, 1, 2];
+
+myFunction(list) = 1; // 2 is also an acceptable answer
+```
+
 #### Find Pivot
 Given a sorted array that has been rotated, find the pivot point index. Constraint: O(log n) time complexity.
 ```javascript
