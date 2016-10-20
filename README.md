@@ -72,6 +72,14 @@ var rect2 = new Rectangle(1, 1, 4, 1);
 myFunction(rect1, rect2) = 2;
 ```
 
+#### Find Pivot
+Given a sorted array that has been rotated, find the pivot point index. Constraint: O(log n) time complexity.
+```javascript
+var pivotArray = [5, 6, 7, 2, 3, 4];
+
+myFunction(pivotArray) = 3 // the index of the pivot point
+```
+
 #### Pascal's triangle
 Write a function that returns n lines of Pascal's triangle
 ```javascript
