@@ -80,6 +80,25 @@ var pivotArray = [5, 6, 7, 2, 3, 4];
 myFunction(pivotArray) = 3 // the index of the pivot point
 ```
 
+#### Water Towers
+You are given a list of numbers that represents the heights of a line of towers. Each tower has a width of 1. It starts raining, and water will gather up between the towers. Write a function that calculates the amount of water collected.
+```javascript
+var towers = [5, 2, 3, 2, 1, 3];
+
+// visualization:
+// '-' is water
+// '#' is a block
+// 
+// #
+// #
+// #-#--#
+// ####-#
+// ######
+
+myFunction(towers) = 4;
+```
+
+
 #### Pascal's triangle
 Write a function that returns n lines of Pascal's triangle
 ```javascript
