@@ -30,7 +30,7 @@ First Player picks 14, now row of coins is: [10]
 Second player picks 10, game over.
 
 The total value collected by second player is more (20 + 30 + 10) compared to first player (18 + 15 + 14). So the second player wins.
-Note that the strategy to pick maximum of two corners may not work.
+Note that the strategy to pick the maximum of the two corners may not work.
 */
 ```
 
@@ -51,7 +51,7 @@ var numbers = [1, 3, 5, 9];
 // 1 * 5 * 9 = 45
 // 3 * 5 * 9 = 135
 
-myFunction(numbers) = [15,27,45,135];
+myFunction(numbers) = [15, 27, 45, 135];
 ```
 
 #### Rectangle intersection
@@ -73,7 +73,7 @@ myFunction(rect1, rect2) = 2;
 ```
 
 #### Find a dupe
-You are given an array of length N that contain random integers from 1 to N-1 (inclusive). Write a function that will return a number that appears more than once in the array. There will always be at least one duplicate number in the array. Constraints: O(n log n) time complexity and O(1) space complexity, without mutating the original array.
+You are given an array of length N that contains random integers from 1 to N-1 (inclusive). Write a function that will return a number that appears more than once in the array. There will always be at least one duplicate number in the array. Constraints: O(n log n) time complexity and O(1) space complexity, without mutating the original array.
 ```javascript
 var list = [4, 1, 5, 2, 1, 2];
 
@@ -83,7 +83,7 @@ myFunction(list) = 1; // 2 is also an acceptable answer
 #### Find Pivot
 Given a sorted array that has been rotated, find the pivot point index. Constraint: O(log n) time complexity.
 ```javascript
-var pivotArray = [5, 6, 7, 2, 3, 4];
+var pivotArray = [5, 6, 7, 1, 2, 3, 4];
 
 myFunction(pivotArray) = 3 // the index of the pivot point
 ```
@@ -116,20 +116,40 @@ Find the distance between two nodes on a binary search tree (sorted) and on a bi
 Given an N x M matrix, print all squares/rectangles of all possible sizes(all 1*1, then all 1*2…. 2*1… )
 
 #### Rotate array
-Given an N x M matrix, rotate the matrix 90 degrees clockwise
+Given an N x M matrix, rotate the matrix 90 degrees clockwise.
 ```javascript
 var array = [
   ['a', 'b', 'c', 'd'],
   ['e', 'f', 'g', 'h'],
   ['i', 'j', 'k', 'l']
-]
+];
 
 var rotatedArray = [
   ['i', 'e', 'a'],
   ['j', 'f', 'b'],
   ['k', 'g', 'c'],
   ['l', 'h', 'd']
-]
+];
+
+var result = myFunction(array); // should deep equal rotatedArray
+```
+
+#### Rotate array (Challenge mode)
+Given an N x N matrix, rotate the matrix 45 degrees clockwise.
+```javascript
+var array = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+
+var rotatedArray = [
+  [      1      ],
+  [    4 , 2    ],
+  [  7 , 5 , 3  ],
+  [    8 , 6    ],
+  [      9      ]
+];
 
 var result = myFunction(array); // should deep equal rotatedArray
 ```
