@@ -113,4 +113,23 @@ myFunction([13, 13, 1, 1, 3, 4, 5, 8, 9, 10], 14) = [[1, 13], [1, 13], [4, 10], 
 Find the distance between two nodes on a binary search tree (sorted) and on a binary tree.
 
 #### Rectangle combinatinos
-Given a N*M matrix, print all squares/rectangles of all possible sizes(all 1*1, then all 1*2…. 2*1… )
+Given an N x M matrix, print all squares/rectangles of all possible sizes(all 1*1, then all 1*2…. 2*1… )
+
+#### Rotate array
+Given an N x M matrix, rotate the matrix 90 degrees clockwise
+```javascript
+var array = [
+  ['a', 'b', 'c', 'd'],
+  ['e', 'f', 'g', 'h'],
+  ['i', 'j', 'k', 'l']
+]
+
+var rotatedArray = [
+  ['i', 'e', 'a'],
+  ['j', 'f', 'b'],
+  ['k', 'g', 'c'],
+  ['l', 'h', 'd']
+]
+
+var result = myFunction(array); // should deep equal rotatedArray
+```
