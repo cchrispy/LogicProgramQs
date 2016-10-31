@@ -51,7 +51,7 @@ var numbers = [1, 3, 5, 9];
 // 1 * 5 * 9 = 45
 // 3 * 5 * 9 = 135
 
-myFunction(numbers) = [15, 27, 45, 135];
+myFunction(numbers); // [15, 27, 45, 135]
 ```
 
 #### Rectangle intersection
@@ -69,7 +69,7 @@ var Rectangle = function(x, y, width, height) {
 var rect1 = new Rectangle(0, 0, 3, 3);
 var rect2 = new Rectangle(1, 1, 4, 1);
 
-myFunction(rect1, rect2) = 2;
+myFunction(rect1, rect2); // 2
 ```
 
 #### Find a dupe
@@ -77,7 +77,7 @@ You are given an array of length N that contains random integers from 1 to N-1 (
 ```javascript
 var list = [4, 1, 5, 2, 1, 2];
 
-myFunction(list) = 1; // 2 is also an acceptable answer
+myFunction(list); // return either 1 or 2
 ```
 
 #### Find Pivot
@@ -85,7 +85,7 @@ Given a sorted array that has been rotated, find the pivot point index. Constrai
 ```javascript
 var pivotArray = [5, 6, 7, 1, 2, 3, 4];
 
-myFunction(pivotArray) = 3 // the index of the pivot point
+myFunction(pivotArray); // return 3, the index of the pivot point
 ```
 
 #### Pascal's triangle
@@ -106,7 +106,7 @@ Write a function that finds the second largest value in a binary tree
 #### Sum pair
 Given an unsorted array of integers and a sum value, write a function that finds the pairs of integers whose sum equals the sum value. There may be duplicate integers. Constraints: linear time complexity.
 ```javascript
-myFunction([13, 13, 1, 1, 3, 4, 5, 8, 9, 10], 14) = [[1, 13], [1, 13], [4, 10], [5, 9]];
+myFunction([13, 13, 1, 1, 3, 4, 5, 8, 9, 10], 14); // [[1, 13], [1, 13], [4, 10], [5, 9]];
 ```
 ##### Sum pair, extended
 Given an array of integers and a value, determine if there are any two integers in the array which sum equal to the given value. Constraints: O(n log n) time complexity, O(1) space complexity.
@@ -133,7 +133,7 @@ var rotatedArray = [
   ['l', 'h', 'd']
 ];
 
-var result = myFunction(array); // should deep equal rotatedArray
+myFunction(array); // should deep equal rotatedArray
 ```
 
 #### Rotate array (Challenge mode)
@@ -153,7 +153,7 @@ var rotatedArray = [
   [      9      ]
 ];
 
-var result = myFunction(array); // should deep equal rotatedArray
+myFunction(array); // should deep equal rotatedArray
 ```
 
 #### Reversed singly linked list
@@ -166,4 +166,12 @@ head --> 4 --> 12 --> 7 --> 22 --> NULL
 return the reversed linked list
 head --> 22 --> 7 --> 12 --> 4 --> NULL
 */
+```
+
+#### Maximal subarray
+Given an array, return the subarray with the maximum sum.
+```javascript
+var array = [1, -3, 5, -2, 9, -8, -6, 4];
+
+myFunction(array); // [5, -2, 9];
 ```
