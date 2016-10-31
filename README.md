@@ -111,8 +111,8 @@ myFunction([13, 13, 1, 1, 3, 4, 5, 8, 9, 10], 14); // [[1, 13], [1, 13], [4, 10]
 ##### Sum pair, extended
 Given an array of integers and a value, determine if there are any two integers in the array which sum equal to the given value. Constraints: O(n log n) time complexity, O(1) space complexity.
 
-#### Distance between tree nodes
-Find the distance between two nodes on a binary search tree (sorted) and on a binary tree.
+#### Path between tree nodes
+Find the path between two nodes on a binary search tree (sorted) and on a binary tree.
 
 #### Rectangle combinations
 Given an N x M matrix, print all squares/rectangles of all possible sizes(all 1*1, then all 1*2…. 2*1… )
