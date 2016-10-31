@@ -155,3 +155,15 @@ var rotatedArray = [
 
 var result = myFunction(array); // should deep equal rotatedArray
 ```
+
+#### Reversed singly linked list
+Given the pointer to the head of a singly linked list, reverse it and return the pointer to the head of the reversed linked list. Constraints: O(n) time complexity, O(1) space complexity.
+```javascript
+/*
+Given the following linked list
+head --> 4 --> 12 --> 7 --> 22 --> NULL
+
+return the reversed linked list
+head --> 22 --> 7 --> 12 --> 4 --> NULL
+*/
+```
