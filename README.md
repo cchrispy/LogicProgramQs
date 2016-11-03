@@ -175,3 +175,13 @@ var array = [1, -3, 5, -2, 9, -8, -6, 4];
 
 myFunction(array); // [5, -2, 9];
 ```
+
+#### Next biggest number
+Given an integer, return the next biggest number that can be formed using the same digits. If no bigger number can be made, return -1.
+```javascript
+myFunction(341) === 413; // true
+myFunction(413) === 431; // true
+myFunction(431) === -1; // true
+myFunction(5) === -1; // true
+myFunction(501) === -1; // true
+```
