@@ -181,7 +181,7 @@ Given an integer, return the next biggest number that can be formed using the sa
 ```javascript
 myFunction(341) === 413; // true
 myFunction(413) === 431; // true
-myFunction(431) === -1; // true
-myFunction(5) === -1; // true
-myFunction(501) === -1; // true
+myFunction(431) ===  -1; // true
+myFunction(5)   ===  -1; // true
+myFunction(501) ===  -1; // true
 ```
