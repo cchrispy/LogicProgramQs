@@ -185,3 +185,18 @@ myFunction(431) ===  -1; // true
 myFunction(5)   ===  -1; // true
 myFunction(501) ===  -1; // true
 ```
+
+#### Array permutation
+Given an array of unique elements, return an array of all permutations of the elements. Extra: modify the function so that it can handle an array that may have duplicate elements. The returned permutations should all be unique.
+```javascript
+var arr = [1, 2, 3];
+var permutations = [
+  [ 1, 2, 3 ],
+  [ 1, 3, 2 ],
+  [ 2, 1, 3 ],
+  [ 2, 3, 1 ],
+  [ 3, 1, 2 ],
+  [ 3, 2, 1 ]
+];
+myFunction(arr); // should deep equal permutations
+```
