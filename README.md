@@ -41,6 +41,13 @@ The next day he said, "I lie on Wednesdays and Fridays."
 On which day of the week does my neighbour tell the truth?
 
 ## Algorithms
+#### Nested array sum
+Find the sum of all integers a list that contains numbers or (nested) arrays of numbers
+```javascript
+var arr = [1, [2, 3], [4, [5, [6, 7], 8]], [[9], [10, 11]], [[[12]]]];
+myFunction(arr); // 78
+```
+
 #### Product Combination
 Given an array of unique numbers, return an array of products from all possible combinations of three numbers.
 ```javascript
