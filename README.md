@@ -163,6 +163,9 @@ var rotatedArray = [
 myFunction(array); // should deep equal rotatedArray
 ```
 
+#### Midpoint singly linked list
+Find the middle element of a singly *singly* list. Constraints: O(n) time complexity, O(1) space complexity.
+
 #### Reversed singly linked list
 Given the pointer to the head of a singly linked list, reverse it and return the pointer to the head of the reversed linked list. Constraints: O(n) time complexity, O(1) space complexity.
 ```javascript
