@@ -200,3 +200,10 @@ var permutations = [
 ];
 myFunction(arr); // should deep equal permutations
 ```
+
+#### Balance parens
+Print all possible combinations of balanced parenthesis up to n.
+```javascript
+myFunction(2); // (()), ()()
+myFunction(3); // ((())), (()()), (())(), ()(()), ()()()
+```
