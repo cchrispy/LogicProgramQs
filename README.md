@@ -118,6 +118,13 @@ myFunction([13, 13, 1, 1, 3, 4, 5, 8, 9, 10], 14); // [[1, 13], [1, 13], [4, 10]
 ##### Sum pair, extended
 Given an array of integers and a value, determine if there are any two integers in the array which sum equal to the given value. Constraints: O(n log n) time complexity, O(1) space complexity.
 
+#### Dutch national flag sort
+Given an array that consists of 0's, 1's, and 2's, return the same array sorted. Constraints: O(n) time complexity, O(1) space complexity.
+```javascript
+var arr = [2,0,0,1,2,1];
+myFunction(arr); // [0,0,1,1,2,2]
+```
+
 #### Path between tree nodes
 Find the path between two nodes on a binary search tree (sorted) and on a binary tree.
 
