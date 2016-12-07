@@ -87,6 +87,20 @@ var list = [4, 1, 5, 2, 1, 2];
 myFunction(list); // return either 1 or 2
 ```
 
+#### Island Count
+Given a 2D matrix filled with 1's and 0's, count the number of islands in the matrix. An island is a group of 1's that are connected adjacently to each other (not including diagonally).
+```javascript
+var matrix = [
+  [0, 1, 0, 1, 0],
+  [0, 0, 1, 1, 1],
+  [1, 0, 0, 1, 0],
+  [0, 1, 1, 0, 0],
+  [1, 0, 1, 0, 1]
+];
+
+myFunction(matrix); // 6
+```
+
 #### Find Pivot
 Given a sorted array that has been rotated, find the pivot point index. Constraint: O(log n) time complexity.
 ```javascript
