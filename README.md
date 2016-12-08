@@ -109,6 +109,9 @@ var pivotArray = [5, 6, 7, 1, 2, 3, 4];
 myFunction(pivotArray); // return 3, the index of the pivot point
 ```
 
+#### Line of Best Fit
+As an input, you have points on a 2D graph. You aim to find a straight line that can fit as my points as possible. Return the maximum number of points you can fit.
+
 #### Pascal's triangle
 Write a function that returns n lines of Pascal's triangle
 ```javascript
