@@ -112,6 +112,9 @@ myFunction(pivotArray); // return 3, the index of the pivot point
 #### Line of Best Fit
 As an input, you have points on a 2D graph. You aim to find a straight line that can fit as my points as possible. Return the maximum number of points you can fit.
 
+#### Triplet Sums
+Given an array of integers and a number N, find all the triplets that will add up to a sum greater than or equal to N.
+
 #### Pascal's triangle
 Write a function that returns n lines of Pascal's triangle
 ```javascript
