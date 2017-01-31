@@ -243,6 +243,24 @@ var permutations = [
 myFunction(arr); // should deep equal permutations
 ```
 
+#### Array spiral  
+Given a positive integer N, return a N x N matrix with a spiral pattern.
+```javascript
+myFunction(5); // [[1, 1, 1, 1, 1],
+               //  [1, 0, 0, 0, 0],
+               //  [1, 0, 1, 1, 1],
+               //  [1, 0, 0, 0, 1],
+               //  [1, 1, 1, 1, 1]]
+
+myFunction(5); // [[1, 1, 1, 1, 1, 1],
+               //  [1, 0, 0, 0, 0, 0],
+               //  [1, 0, 1, 1, 1, 1],
+               //  [1, 0, 1, 0, 0, 1],
+               //  [1, 0, 0, 0, 0, 1],
+               //  [1, 1, 1, 1, 1, 1]]
+
+```
+
 #### Balance parens
 Print all possible combinations of balanced parenthesis up to n.
 ```javascript
