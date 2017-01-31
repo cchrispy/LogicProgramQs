@@ -244,7 +244,7 @@ myFunction(arr); // should deep equal permutations
 ```
 
 #### Array spiral  
-Given a positive integer N, return a N x N matrix with a spiral pattern.
+Given a positive integer N, return a N x N matrix with a spiral pattern. The pattern will spiral inwards starting from a corner.
 ```javascript
 myFunction(5); // [[1, 1, 1, 1, 1],
                //  [1, 0, 0, 0, 0],
@@ -255,7 +255,7 @@ myFunction(5); // [[1, 1, 1, 1, 1],
 myFunction(5); // [[1, 1, 1, 1, 1, 1],
                //  [1, 0, 0, 0, 0, 0],
                //  [1, 0, 1, 1, 1, 1],
-               //  [1, 0, 1, 0, 0, 1],
+               //  [1, 0, 1, 1, 0, 1],
                //  [1, 0, 0, 0, 0, 1],
                //  [1, 1, 1, 1, 1, 1]]
 
