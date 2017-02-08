@@ -136,7 +136,7 @@ Write a function that returns n lines of Pascal's triangle
 Write a function that finds the second largest value in a binary tree  
 
 #### Steady String
-A string of length N (where evenly divisible by 4) contains only the letters A, B, C, D. This string is considered steady if each of the letters occur exactly N/4 times. Find the length of the smallest possible substring that needs to be replaced in order to for the string to be steady. If the string is already steady, return 0.
+A string of length N (where N is evenly divisible by 4) contains only the letters A, B, C, D. This string is considered steady if each of the letters occur exactly N/4 times. Find the length of the smallest possible substring that needs to be replaced in order to for the string to be steady. If the string is already steady, return 0.
 ```javascript
 myFunction('AAABAAAC'); // 5
                         // 'AAABA' can be replaced with 'BBCDD' to make it steady
