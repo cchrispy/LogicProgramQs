@@ -133,7 +133,20 @@ Write a function that returns n lines of Pascal's triangle
 ```
 
 #### 2nd largest node in a binary tree
-Write a function that finds the second largest value in a binary tree
+Write a function that finds the second largest value in a binary tree  
+
+#### Steady String
+A string of length N (where evenly divisible by 4) contains only the letters A, B, C, D. This string is considered steady if each of the letters occur exactly N/4 times. Find the length of the smallest possible substring that needs to be replaced in order to for the string to be steady. If the string is already steady, return 0.
+```javascript
+myFunction('AAABAAAC'); // 5
+                        // 'AAABA' can be replaced with 'BBCDD' to make it steady
+
+myFunction('AAADDBBB'); // 4
+                        // 'ADDB' can be replaced with 'CCDD' to make it steady
+
+myFunction('AAABAAAA'); // 6
+                        // 'AAABAA' can be replaced with 'BBCCDD' to make it steady
+```
 
 #### Sum pair
 Given an unsorted array of integers and a sum value, write a function that finds the pairs of integers whose sum equals the sum value. There may be duplicate integers. Constraints: linear time complexity.
