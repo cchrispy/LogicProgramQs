@@ -289,3 +289,15 @@ myFunction(4, [1, 2, 3]); // 4
 myFunction(10, [2, 3, 5, 6]); // 5
 // { 2, 2, 2, 2, 2}, { 2, 2, 3, 3 }, { 2, 2, 6 }, { 2, 3, 5 }, { 5, 5 }
 ```  
+
+#### Min Sum Path  
+Given a M x N grid with non-negative numbers, find a path from the top left to the bottom right which minimizes the sum of all numbers along the path. The output should be the sum.  
+```javascript
+var input = [
+  [1, 3, 2],
+  [4, 3, 1],
+  [5, 6, 1]
+]
+
+myFunction(input); // 8 (start -> 1 -> 3 -> 2 -> 1 -> 1 -> end)
+```
