@@ -301,3 +301,19 @@ var input = [
 
 myFunction(input); // 8 (start -> 1 -> 3 -> 2 -> 1 -> 1 -> end)
 ```
+
+#### Max Balanced Binary Subarray
+Given an array consisting of 0s and 1s, return the length of the longest subarray that contain an equal number of 0s and 1s.  
+```javascript
+var input = [1, 1, 1, 0, 1, 0, 0, 1];
+myFunction(input); // 6
+
+var input = [0, 1, 1, 1, 1, 0, 0, 1];
+myFunction(input); // 4
+
+var input = [0, 1, 1, 1, 0];
+myFunction(input); // 2
+
+var input = [1, 1];
+myFunction(input); // 0
+```
