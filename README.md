@@ -317,3 +317,10 @@ myFunction(input); // 2
 var input = [1, 1];
 myFunction(input); // 0
 ```
+
+#### Pythagorean triplets  
+Given an array of integers, find all Pythagorean triplets in the array. Pythagorean triplets are 3 integers [a, b, c] such that a^2 + b^2 = c^2.
+```javascript
+var input = [1, 13, 3, 4, 10, 12, 2, 5];
+myFunction(input); // [[3, 4, 5], [5, 12, 13]]
+```
