@@ -326,7 +326,7 @@ myFunction(input); // [[3, 4, 5], [5, 12, 13]]
 ```
 
 #### Say What You See  
-Given an array of strings that are digits, return an array of the spoken descriptions of those string-digits. For example the string "12" is spoken as "one one, one two", so return "1112". The string 211 is spoken as "one two, two ones", so return "1221".
+Given an array of strings that are digits, return an array of the spoken descriptions of those string-digits. For example the string "12" is spoken as "one one, one two", so return "1112". The string "211" is spoken as "one two, two ones", so return "1221".
 ```javascript
 myFunction(['12', '21']);     // ['1112', '1211']
 myFunction(['1112', '1133']); // ['3112', '2123']
