@@ -333,3 +333,10 @@ myFunction(['1112', '1133']); // ['3112', '2123']
 myFunction(['11114', '123']); // ['4114', '111213']
 myFunction(['555334']);       // ['352314']
 ```
+
+#### Longest Palindrome in a String  
+Given a string, return the longest palindrome that is found inside of the string. Contraints: linear time and constant space.
+```javascript
+var str = 'abbcdcdcba';
+myFunction(str); // 'bcdcdcb'
+```
