@@ -340,3 +340,16 @@ Given a string, return the longest palindrome that is found inside of the string
 var str = 'abbcdcdcba';
 myFunction(str); // 'bcdcdcb'
 ```
+
+#### Max Distance Monotonic  
+A monotonic pair in an array A of length N is a pair of integers (P, Q) such that 0 <= P <= Q <= N and A[P] <= A[Q].
+Given an array of integers, find the monotonic pair whose indeces are furthest apart and return that distance. Constraints: linear time complexity and linear space complexity.
+```javascript
+var arr = [5, 3, 6, 3, 4, 2];
+
+// There are 11 monotonic pairs: 
+// (0,0), (0, 2), (1, 1), (1, 2), (1, 3), (1, 4), (2, 2), (3, 3), (3, 4), (4, 4), (5, 5)
+// The biggest distance is 3, in the pair (1, 4)
+
+myFunction(arr); // 3
+```
