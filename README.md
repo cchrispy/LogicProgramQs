@@ -353,3 +353,19 @@ var arr = [5, 3, 6, 3, 4, 2];
 
 myFunction(arr); // 3
 ```
+
+#### Count Moves  
+You are given an array of integers of length N. A move consists of incrementing N-1 of the elements by one. What is the minimum number of moves needed for all the integers to be equal?
+```javascript
+var arr = [5, 6, 8, 8, 5];
+
+// 1st move: [6, 7, 8, 9, 6];
+// 2nd move: [7, 8, 9, 9, 7];
+// 3rd move: [8, 9, 10, 9, 8];
+// 4th move: [9, 10, 10, 10, 9];
+// 5th move: [10, 11, 11, 10, 10];
+// 6th move: [11, 11, 12, 11, 11];
+// 7th move: [12, 12, 12, 12, 12];
+
+myFunction(arr); // 7
+```
