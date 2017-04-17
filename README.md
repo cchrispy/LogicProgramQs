@@ -369,3 +369,12 @@ var arr = [5, 6, 8, 8, 5];
 
 myFunction(arr); // 7
 ```
+
+#### Max Difference in Order  
+Given an array of integers, find the maximum difference between two elements such that the smaller element appears earlier in the array than the larger element. Constraints: Linear time complexity, constant space complexity.  
+```javascript
+var arr = [2, 7, 9, 5, 1, 3, 5];
+
+myFunction(arr); // 7
+// The pair is (2, 9) 
+```
