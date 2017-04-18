@@ -378,3 +378,14 @@ var arr = [2, 7, 9, 5, 1, 3, 5];
 myFunction(arr); // 7
 // The pair is (2, 9) 
 ```
+
+#### Zig Zag String  
+Given a string and integer N, print the string in a zig-zag form in N rows. See below.
+```javascript
+var string = "HELLOAWESOMEWORLD", N = 3;
+
+// result...
+//      H       O       S       W       D
+//        E   L   A   E   O   E   O   L
+//          L       W       M       R
+```
