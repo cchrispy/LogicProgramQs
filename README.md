@@ -389,3 +389,12 @@ var string = "HELLOAWESOMEWORLD", N = 3;
 //        E   L   A   E   O   E   O   L
 //          L       W       M       R
 ```
+
+#### Merge Overlapping Intervals  
+Given a set of intervals, return all non-overlapping intervals after merging overlapping intervals.
+```javascript
+let intervals = [[1, 5], [2, 3], [4, 6], [7, 8], [8, 10], [12, 15]];
+
+// result
+// [1, 6], [7, 10], [12, 15]
+```
