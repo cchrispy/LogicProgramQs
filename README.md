@@ -391,10 +391,10 @@ var string = "HELLOAWESOMEWORLD", N = 3;
 ```
 
 #### Merge Overlapping Intervals  
-Given a set of intervals, return all non-overlapping intervals after merging overlapping intervals.
+Given a set of intervals, return all non-overlapping intervals after merging overlapping intervals. You can assume the given intervals are sorted. Constraints: Linear time.
 ```javascript
 let intervals = [[1, 5], [2, 3], [4, 6], [7, 8], [8, 10], [12, 15]];
 
-// result
-// [1, 6], [7, 10], [12, 15]
+myFunction(intervals);
+// -> [1, 6], [7, 10], [12, 15]
 ```
