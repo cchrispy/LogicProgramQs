@@ -397,4 +397,13 @@ let intervals = [[1, 5], [2, 3], [4, 6], [7, 8], [8, 10], [12, 15]];
 
 myFunction(intervals);
 // -> [1, 6], [7, 10], [12, 15]
+```  
+
+#### Max non-adjacent subsequence sum  
+Given an array of integers, find the maximum sum of a subsequence where the subsequence contains no adjacent elements.  
+```javascript
+const input = [1, 2, 9, 4, 5, 0, 4, 11, 6];
+
+myFunction(input); // 26
+// The max sum is formed by the subsequence [1, 9, 5, 11]
 ```
